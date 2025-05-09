@@ -1,0 +1,25 @@
+import numpy as np 
+a  = np.array([10,20,30])
+b = np.array([1,2,3])
+print(a,b)
+print(a + b)
+print(a - b)
+print(a * b)
+print(a / b)
+print(a + 5)
+print(a * 10)
+print(a - 10)
+print(a/2)
+#aggregate function 
+print(np.sum(a))
+print(np.mean(a))
+print(np.min(a))
+print(np.max(a))
+
+X = np.array([[1, 2], [3, 4]])
+Y = np.array([[5, 6], [7, 8]])
+print(X)
+print(Y)
+#matrix multiplication 
+print(X @ Y)
+print(np.dot(X,Y))
